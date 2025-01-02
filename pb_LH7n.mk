@@ -18,10 +18,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, device/tecno/LH7n/device.mk)
 
 # Inherit some common TWRP stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := pb_LH7n
+PRODUCT_NAME := twrp_LH7n
 PRODUCT_DEVICE := LH7n
 PRODUCT_BRAND := Tecno
 PRODUCT_MODEL := Tecno LH7n
