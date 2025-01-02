@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_LH7n.mk
+    $(LOCAL_DIR)/pb_LH7n.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_LH7n-user \
-    twrp_LH7n-userdebug \
-    twrp_LH7n-eng
+    pb_LH7n-user \
+    pb_LH7n-userdebug \
+    pb_LH7n-eng
